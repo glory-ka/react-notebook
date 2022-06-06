@@ -1,0 +1,113 @@
+.editor-navbar
+{
+    border: 1px solid #566573;
+    background: #283747;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-container 
+{
+    padding-left: 104.5px;
+    background: #28B463;
+}
+
+.notebook-option-container
+{
+    padding: 10px 0px;
+}
+
+.button-option
+{
+    border: 0.5px solid #D5D8DC;
+    padding: 10px;
+    border-radius: 3.75px;
+    background: #5D6D7E;
+    margin: 5px;
+}
+
+.notebook-name 
+{
+    margin: 40px 0px 0px 29px;
+    /*border: 0.5px solid #D5D8DC;*/
+    border-radius: 4px;
+    background-color: #99A3A4;
+    min-width: 100px;
+    height: 30%;
+    padding: 8px 4px;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.confirmation
+{
+    background: #AED6F1;
+    margin-top: 10px;
+    height: 60%;
+    display: none;
+}
+
+.confirmation-message
+{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.confirmation-ok, .confirmation-cancel
+{
+    background-color: #2E86C1;
+    border: .5px solid #AED6F1;
+}
+
+.userForm
+{
+    display: none;
+    padding-top: 8px;
+    color: white;
+}
+
+.userForm input[type=text] 
+{
+    padding: 12px 20px;
+    margin: 8px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.userForm input[type=submit] 
+{
+    padding: 12px 20px;
+    margin: 2px 8px;
+    border-radius: 4px;
+    border: none;
+    background: #5D6D7E;
+}
+
+.userForm label 
+{
+    display: block;
+    margin-left: 8px;
+}
+
+.userForm button 
+{
+    background: #E74C3C;
+    border: none; 
+    margin-right: 8px;
+    border-radius: 2px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.plus-cross-svg 
+{
+    display: none;
+}

@@ -111,7 +111,7 @@ class App extends React.Component {
               else return item;
           }),
           showQuestion: !this.state.showQuestion,
-          currentNoteName: this.state.currentNoteName && this.state.newUpdateNoteName.update
+          currentNoteName: this.state.newUpdateNoteName.update
       });
     }
     else
